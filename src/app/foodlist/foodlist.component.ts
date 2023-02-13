@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Dish } from '../dish';
-import { MOSTPOP } from '../mostpop';
+import { mostPopularDishes } from '../mostpop';
 
 @Component({
   selector: 'app-foodlist',
@@ -8,5 +8,5 @@ import { MOSTPOP } from '../mostpop';
   styleUrls: ['./foodlist.component.scss']
 })
 export class FoodlistComponent {
-  mostpop = MOSTPOP;
+  mostpop = mostPopularDishes;
 }
